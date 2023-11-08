@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E3F4F4;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #212a3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar-title p {
+    margin-left: 20px;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  .navbar-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    color: #66ccff;
+  }
+
+.container-1{
+    height: 90vh;
+    padding-top: 100px;
+    background-image:url(../assets/bg-home.png); 
+    background-size:cover; 
+
+}
+
+.card__con__1{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    background: rgba(33, 42, 62, 0.64);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(33, 42, 62, 0.3);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.title__card span{
+    max-width: 300px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.content__card p{
+    padding-top: 20px;
+    max-width: 700px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.container-2{
+    padding-top: 50px
+}
+
+.title__con__2{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title__con__2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.title__con__2 a:hover{
+    color: cadetblue;
+    /* text-decoration: underline; */
+}
+
+.title__con__2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    max-width: 200px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.container__books{
+    width: 90%;
+    height: 650px;
+    padding-top: 50px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.books1{
+    width: 300px;
+    /* margin: auto */
+    height: 500px;
+    margin-left: 20px;
+}
+
+.books2{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+.books3{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.img__books{
+    width: 280px;
+    height: 400px;
+}
+
+.img__books img{
+    width: 100%;
+    height: 100%;
+}
+
+.title__books{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title__books span{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title__books p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.desk__books{
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.desk__books p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ----------BOOKS AKHIR----------- */
+.books4{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+
+/* -------------Akhir CSS FIKSI-------------- */
+
+
+.container-3{
+    padding-top: 80px;
+}
+
+
+.container-4{
+    padding-top: 80px;
+}
+.container__books_4{
+    width: 90%;
+    height: 500px;
+    padding-top: 50px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer{
+    height: 50px;
+    background-color: #212A3E;
+}

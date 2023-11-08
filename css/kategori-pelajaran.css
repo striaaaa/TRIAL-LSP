@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E3F4F4;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #212a3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar-title p {
+    margin-left: 20px;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  .navbar-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    color: #66ccff;
+  }
+
+
+
+.background-fiksi {
+    background-color: #e3f4f4;
+  }
+  .background-Pelajaran {
+    background-color: #e3f4f4;
+    padding-bottom: 50px;
+  }
+  
+  .fiksi-utama {
+    display: flex;
+    max-width: 500px;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .judul-fiksi h3 {
+    /* display: flex; */
+    text-align: center;
+    /* max-width: 900px; */
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+  }
+  
+  .judul-fiksi a {
+    text-decoration: none;
+  }
+  
+  .judul-fiksi a :hover {
+    text-decoration: underline;
+  }
+  
+  .penampung {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+  .penampung a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .gallery-item {
+    width: 281px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+  
+  /* CSS Buku Fiki */
+  
+  .image-1 {
+    height: 466px;
+  }
+  
+  .image-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .judul_buku1 {
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-2 {
+    height: 466px;
+  }
+  
+  .image-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku2 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-3 {
+    height: 466px;
+  }
+  
+  .image-3 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku3 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-4 {
+    height: 466px;
+  }
+  
+  .image-4 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku4 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-5 {
+    height: 466px;
+  }
+  
+  .image-5 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku5 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .image-6 {
+    height: 466px;
+  }
+  
+  .image-6 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku6 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .image-7 {
+    height: 466px;
+  }
+  
+  .image-7 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku7 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .image-8 {
+    height: 466px;
+  }
+  
+  .image-8 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku8 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }

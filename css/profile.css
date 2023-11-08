@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f4f4;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    background-color: #212a3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar-title p {
+    margin-left: 20px;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  .navbar-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    color: #66ccff;
+  }
+  
+  .utama {
+    height: 90vh;
+    background-image: url("../assets/ilustrasi-perpustakaan-istock_ratio-16x9\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  
+  .utama_background {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+  }
+  .utama img {
+    width: 100%;
+    height: 100%;
+  }
+  .bingkai {
+    background-color: #212a3e;
+    opacity: 80%;
+    border-radius: 39px;
+    margin-top: 50px;
+    margin: 50px 380px;
+    height: 380px;
+    width: 750px;
+  }
+  
+  .left-container {
+    background: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 90vh;
+    color: white;
+  }
+  
+  .side-bar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  
+  .side-bar a {
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    max-width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .side-bar a:hover {
+    color: #66ccff;
+  }
+  
+  .right-container {
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 300px;
+  }
+  
+  .right-title {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  
+  .right-title img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right-content1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .right-content1 span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .right-content2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .right-content2 span {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  
+  .second-container {
+    background-color: #e3f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .second-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .second-title span {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+  }
+  
+  .container-img-bagan {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    background-color: #212a3e;
+  }
+  
+  .container-img-bagan img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container-panduan-perpustakaan {
+    background-color: #e3f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-panduan {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .submenu-panduan {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  
+  .content-panduan {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-left: 100px;
+  }
+  
+  .content-panduan li {
+    padding-top: 10px;
+  }
+  
+  .container-tata-perpustakaan {
+    background-color: #e3f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-tartib {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .submenu-tartib {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  
+  .content-tartib {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-left: 100px;
+  }
+  
+  .content-tartib li {
+    padding-top: 10px;
+  }
+  
+  .container-faq {
+    background-color: #e3f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-faq {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .submenu-faq {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .submenu-faq2 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  
+  .content-faq {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+  .footer {
+    margin-top: 150px;
+    background-color: #212a3e;
+    height: 50px;
+  }

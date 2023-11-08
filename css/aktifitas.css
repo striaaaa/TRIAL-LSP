@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f4f4;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    background-color: #212a3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar-title p {
+    margin-left: 20px;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  .navbar-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    color: #66ccff;
+  }
+  
+  .background-fiksi {
+    background-color: #e3f4f4;
+  }
+  .background-Pelajaran {
+    background-color: #e3f4f4;
+    padding-bottom: 50px;
+  }
+  
+  .fiksi-utama {
+    display: flex;
+    max-width: 500px;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .judul-fiksi h3 {
+    /* display: flex; */
+    text-align: center;
+    /* max-width: 900px; */
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+  }
+  
+  .judul-fiksi a {
+    text-decoration: none;
+  }
+  
+  .judul-fiksi a :hover {
+    text-decoration: underline;
+  }
+  
+  .penampung {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    width: 281px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+  
+  /* CSS Buku Fiki */
+  
+  .image-1 {
+    height: 466px;
+  }
+  
+  .image-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .judul_buku1 {
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-2 {
+    height: 466px;
+  }
+  
+  .image-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku2 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-3 {
+    height: 466px;
+  }
+  
+  .image-3 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku3 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-4 {
+    height: 466px;
+  }
+  
+  .image-4 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku4 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Akhir CSS Buku Fiksi */
+  
+  /* CSS Buku Biografi */
+  .image-5 {
+    height: 466px;
+  }
+  
+  .image-5 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku5 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-6 {
+    height: 466px;
+  }
+  
+  .image-6 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku6 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-7 {
+    height: 466px;
+  }
+  
+  .image-7 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku7 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-8 {
+    height: 466px;
+  }
+  
+  .image-8 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku8 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Akhir Buku Biografi */
+  
+  /* Awal Buku Pelajaran */
+  
+  .image-9 {
+    height: 466px;
+  }
+  
+  .image-9 img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku9 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+  }
+  .image-10 {
+    height: 466px;
+  }
+  
+  .image-10 img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku10 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-11 {
+    height: 466px;
+  }
+  
+  .image-11 img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku11 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-12 {
+    height: 466px;
+  }
+  
+  .image-12 img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .judul_buku12 {
+    margin-bottom: 0px;
+    font-family: "Poppins ", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Awal Berita */
+  
+  .container-utama-berita {
+    background-color: #e3f4f4;
+  }
+  
+  .container-berita {
+    background-color: #e3f4f4;
+  }
+  
+  .header h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .container-card-berita {
+    background-color: #e3f4f4;
+    height: 400px;
+    justify-content: center;
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-container {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 60px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .image-item {
+    height: 300pxm;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title-container {
+    max-width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 15xpx;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .header-pengumuman {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-top: 200px;
+  }
+  
+  .container-card-akhir {
+    background-color: white;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .tanggal {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .pengumuman-pembungkus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pengumuman-isi p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    max-width: 900px;
+    font-weight: 500;
+    padding-top: 50px;
+  }
+  
+  .footer {
+    margin-top: 150px;
+    background-color: #212a3e;
+    height: 50px;
+  }
