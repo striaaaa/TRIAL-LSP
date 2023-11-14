@@ -1,10 +1,13 @@
+<?php require 'config.php';
+$buku = query("SELECT * FROM fiksi");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="css/admin.css" />
+    <title>Admin Dashboard | Edit Buku</title>
+    <link rel="stylesheet" href="css/admin-home.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -25,6 +28,11 @@
             <p>Admin</p>
             <p>Hello, Satria</p>
           </div>
+        </div>
+
+        <div class="home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"><path d="M19 21.0001H5C4.44772 21.0001 4 20.5524 4 20.0001V11.0001L1 11.0001L11.3273 1.61162C11.7087 1.26488 12.2913 1.26488 12.6727 1.61162L23 11.0001L20 11.0001V20.0001C20 20.5524 19.5523 21.0001 19 21.0001ZM6 19.0001H18V9.15757L12 3.70302L6 9.15757V19.0001Z" fill="rgba(255,255,255,1)"></path></svg>
+            <a href="admin-home.php"><p>Home</p></a>
         </div>
         <div class="container-tambah-buku">
           <svg
@@ -54,8 +62,10 @@
             />
           </svg>
 
-          <a href="Edit-Buku.html"><p>Edit Buku</p></a>
+          <a href="Edit Buku.html"><p>Edit Buku</p></a>
         </div>
+
+
         <div class="container-pinjaman-buku">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,26 +78,42 @@
               fill="rgba(255,255,255,1)"
             ></path>
           </svg>
-          <a href="buku-pinjaman.html"><p>Buku Pinjaman</p></a>
+          <a href="buku-pinjaman.html"> <p>Buku Pinjaman</p></a>
         </div>
       </div>
+
+
+      <!-- Kanan -->
       <div class="container-kanan">
-        <div class="title"><span>Tambah Buku</span></div>
-        <div class="container-form1">
-          <span>Judul Buku</span>
-          <input type="text" />
-        </div>
+        <div class="title"><span>Data Buku Pinjaman Siswa</span></div>
         <div class="container-form2">
-          <span>Tahun Terbit</span>
-          <input type="text" />
+
+          
+         
+          <div class="container-book-1">
+            <div class="container-img-book">
+              <img src="assets/fiksi/<?= $row["gambar"]; ?>" alt="" />
+              <div class="teks">
+                <p><?= $row["judul"]; ?></p>
+                <p><?= $row["penulis"]; ?></p>
+                <p><?= $row["tahun_terbit"]; ?></p>
+                <p><?= $row["deskripsi"]; ?></p>
+
+              </div>
+              <div class="icon">
+                <div class="icon1"><i class="ri-pencil-fill"></i></div>
+                <div class="icon2"><i class="ri-delete-bin-fill"></i></div>
+              </div>
+            </div>
+               <?php 
+          
+               ?>
+          </div>
         </div>
-        <div class="container-form3">
-          <span>Deskripsi Buku</span>
-          <input type="text" />
-        </div>
-        <div class="btn">
+
+        <!-- <div class="btn">
           <a href=""><button type="submit">Submit</button></a>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>

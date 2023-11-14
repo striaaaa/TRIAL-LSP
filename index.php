@@ -1,3 +1,15 @@
+<?php 
+ 
+session_start();
+ 
+if (!isset($_SESSION['user_name'])) {
+    header("Location: login.php");
+}
+ 
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +55,7 @@
           <li><a href="kategori.html">Kategori</a></li>
           <li><a href="aktifitas.html">Aktifitas</a></li>
           <li><a href="profile.html">Profile</a></li>
-          <li><a href="login.html">Log Out</a></li>
+          <li><a href="logout.php">Log Out</a></li>
         </ul>
       </nav>
   

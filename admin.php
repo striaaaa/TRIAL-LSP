@@ -1,10 +1,41 @@
+<?php
+require 'config.php';
+
+// cek apakah tombol submit sudah ditekan atau belum
+if( isset($_POST["submit"]) ) {
+	
+  
+
+
+	// cek apakah data berhasil di tambahkan atau tidak
+	if( tambah($_POST) > 0 ) {
+		echo "
+			<script>
+				alert('data berhasil ditambahkan!');
+				document.location.href = 'admin-revisi.php';
+			</script>
+		";
+	} else {
+		echo "
+			<script>
+				alert('data gagal ditambahkan!');
+				document.location.href = 'admin-revisi.php';
+			</script>
+		";
+	}
+
+
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard | Edit Buku</title>
-    <link rel="stylesheet" href="css/edit-buku.css" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -54,7 +85,7 @@
             />
           </svg>
 
-          <a href="Edit Buku.html"><p>Edit Buku</p></a>
+          <a href="Edit-Buku.php"><p>Edit Buku</p></a>
         </div>
         <div class="container-pinjaman-buku">
           <svg
@@ -68,40 +99,37 @@
               fill="rgba(255,255,255,1)"
             ></path>
           </svg>
-          <a href="buku-pinjaman.html"> <p>Buku Pinjaman</p></a>
+          <a href="buku-pinjaman.html"><p>Buku Pinjaman</p></a>
         </div>
       </div>
+      <form action="" method="post" enctype="multipart/form-data">
       <div class="container-kanan">
-        <div class="title"><span>Edit Buku</span></div>
+        <div class="title"><span>Tambah Buku</span></div>
         <div class="container-form1">
-          <!-- <span>Judul Buku</span> -->
-          <div class="container-book-1">
-            <div class="container-img-book">
-              <img src="assets/pelajaran/pljrn 1.png" alt="" />
-              <div class="icon">
-                <div class="icon1"><i class="ri-pencil-fill"></i></div>
-                <div class="icon2"><i class="ri-delete-bin-fill"></i></div>
-              </div>
-            </div>
-          </div>
+          <span>Judul Buku</span>
+          <input type="text" name="judul" id="judul"/>
         </div>
         <div class="container-form2">
-          <!-- <span>Judul Buku</span> -->
-          <div class="container-book-1">
-            <div class="container-img-book">
-              <img src="assets/fiksi/fiksi 8.png" alt="" />
-              <div class="icon">
-                <div class="icon1"><i class="ri-pencil-fill"></i></div>
-                <div class="icon2"><i class="ri-delete-bin-fill"></i></div>
-              </div>
-            </div>
-          </div>
+          <span>Penulis</span>
+          <input type="text" name="penulis" id="penulis" >
         </div>
-
-        <!-- <div class="btn">
-          <a href=""><button type="submit">Submit</button></a>
-        </div> -->
+        <div class="container-form2">
+          <span>tahun terbit</span>
+          <input type="text" name="tahun" id="tahun" >
+        </div>
+        <div class="container-form3">
+          <span>Deskripsi Buku</span>
+          <input type="text" name="deskripsi" id="deskripsi" >
+        </div>
+        <div class="container-form2">
+        <label for="gambar">Gambar :</label>
+          <input type="file" name="gambar" id="gambar">
+        </div>
+        <div class="btn">
+        <button type="submit" name="submit">Tambah Data!</button>
+        </div>
       </div>
+      </form>
     </div>
   </body>
 </html>
